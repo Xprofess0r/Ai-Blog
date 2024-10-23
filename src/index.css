@@ -13,6 +13,9 @@
   max-width: 1400px;
   margin: 0 auto;
   position: relative;
+  padding-left: 10px; /* Equal padding on left and right */
+  padding-right: 10px;
+  overflow: hidden; 
  
 }
 

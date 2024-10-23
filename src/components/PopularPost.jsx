@@ -3,7 +3,9 @@ import { popularPosts } from '../constant/index'; // Import popular posts from c
 
 const SidebarSection = () => {
   return (
-    <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12 my-12">
+    <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12 my-12 px-4 md:px-8"> 
+      {/* Added px-4 for small screens and px-8 for medium and larger screens */}
+
       {/* Popular Posts */}
       <div className="md:col-span-2">
         <h3 className="text-xl font-bold mb-4 border-b-2 border-blue-500 inline-block">Popular Posts</h3>
