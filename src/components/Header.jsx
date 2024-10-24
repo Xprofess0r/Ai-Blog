@@ -19,9 +19,9 @@ const HeaderHero = () => {
   };
 
   return (
-    <div className="max-w-screen-full mx-auto">
+    <div className="max-w-screen-full sticky top-0 z-50 mx-auto">
       {/* Navbar */}
-      <nav className="flex justify-between items-center p-6 bg-white shadow-md font-sans">
+      <nav className="flex justify-between items-center sticky top-0 p-6 bg-white shadow-md font-sans ">
         {/* Hamburger Menu Button for Mobile (Visible on smaller screens) */}
         <div className="md:hidden flex items-center">
           <button
